@@ -4,7 +4,7 @@ LABEL  maintainer "UrmnafBortHyuga <yurihyuga1889@gmail.com>"
 RUN dpkg --add-architecture i386
 
 # Install Packages
-# Fjoji
+# Fjoji is good
 RUN apt-get update
 RUN apt-get install -y curl zip unzip git wget ca-certificates-java apt-transport-https
 RUN apt-get install -y --no-install-recommends chromium-browser chromium-chromedriver
